@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 import "./addRecipe.css";
 import HomeButton from "./HomeButton";
 
@@ -9,7 +10,22 @@ export default function AddRecipe() {
   const [instructions, setInstructions] = useState("");
   const [recipes, setRecipes] = useState([]);
 
-  const handleAddRecipe = () => {
+  // ✅ Load recipes from backend when component mounts
+  useEffect(() => {
+    fetchRecipes();
+  }, []);
+
+  const fetchRecipes = async () => {
+    try {
+      const res = await axios.get("http://localhost:4000/api/recipes");
+      setRecipes(res.data);
+    } catch (error) {
+      console.error("Error fetching recipes", error);
+    }
+  };
+
+  // ✅ Add recipe to backend
+  const handleAddRecipe = async () => {
     if (!title || !category || !ingredients || !instructions) {
       alert("Please fill all fields");
       return;
@@ -22,18 +38,23 @@ export default function AddRecipe() {
       instructions,
     };
 
-    setRecipes([...recipes, newRecipe]);
-
-    // Clear inputs
-    setTitle("");
-    setCategory("");
-    setIngredients("");
-    setInstructions("");
+    try {
+      await axios.post("http://localhost:4000/api/recipes", newRecipe, {
+        headers: { "Content-Type": "application/json" },
+      });
+      fetchRecipes(); // refresh list
+      setTitle("");
+      setCategory("");
+      setIngredients("");
+      setInstructions("");
+    } catch (error) {
+      console.error("Error adding recipe", error);
+    }
   };
 
   return (
     <div className="add-recipe-container">
-        <HomeButton />
+      <HomeButton />
       <header className="add-recipe-header">
         <h1 className="add-recipe-title">Add a New Recipe 🍳</h1>
         <p className="add-recipe-subtitle">
@@ -75,7 +96,7 @@ export default function AddRecipe() {
               <p className="category">{recipe.category}</p>
               <h4>Ingredients:</h4>
               <ul>
-                {recipe.ingredients.map((ing, i) => (
+                {recipe.ingredients?.map((ing, i) => (
                   <li key={i}>{ing}</li>
                 ))}
               </ul>

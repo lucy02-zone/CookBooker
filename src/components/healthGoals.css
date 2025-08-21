@@ -1,0 +1,88 @@
+.goals-container {
+  font-family: Arial, sans-serif;
+  background-color: #fdfbe8;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.goals-header {
+  background: rgb(111, 113, 75);
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  color: #fdfbe8;
+  margin-bottom: 30px;
+}
+
+.goals-title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.goals-subtitle {
+  font-size: 16px;
+  margin-top: 5px;
+  color: #e0e0e0;
+}
+
+.goals-input {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.goals-input input {
+  width: 60%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+
+.goals-input button {
+  background: rgb(111, 113, 75);
+  color: #fdfbe8;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.goals-input button:hover {
+  background: rgb(254, 254, 234);
+  color: rgb(60, 60, 40);
+}
+
+.goals-results {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.goals-results ul {
+  list-style: none;
+  padding: 0;
+}
+
+.goals-results li {
+  background: rgb(111, 113, 75);
+  color: #fdfbe8;
+  margin: 8px auto;
+  padding: 12px;
+  border-radius: 8px;
+  width: 60%;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s;
+}
+
+.goals-results li:hover {
+  background: rgb(254, 254, 234);
+  color: rgb(60, 60, 40);
+  transform: scale(1.05);
+}
+
+.placeholder {
+  font-size: 16px;
+  color: #666;
+}
