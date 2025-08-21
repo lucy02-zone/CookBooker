@@ -21,7 +21,10 @@ export default function HomePage() {
           Home
         </button>
         <h1 className="title">COOKBOOKER</h1>
-        <button className="nav-btn" onClick={() => alert("Login feature coming soon")}>
+        <button
+          className="nav-btn"
+          onClick={() => alert("Login feature coming soon")}
+        >
           Login
         </button>
       </header>
@@ -29,7 +32,11 @@ export default function HomePage() {
       <main className="main-content">
         <div className="grid">
           {features.map((f, i) => (
-            <div key={i} className="feature-card" onClick={() => navigate(f.path)}>
+            <div
+              key={i}
+              className="feature-card"
+              onClick={() => navigate(f.path)}
+            >
               {f.name}
             </div>
           ))}
@@ -38,4 +45,5 @@ export default function HomePage() {
     </div>
   );
 }
+
 

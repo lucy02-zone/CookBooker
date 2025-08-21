@@ -1,38 +1,53 @@
 import React, { useState } from "react";
+import "./recipeSearch.css";
+import HomeButton from "./HomeButton";
 
 export default function RecipeSearch() {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
 
   const handleSearch = () => {
-    // Mock data for now
+    // Mock data for now (you can replace with API later)
     setResults([
       { title: "Vegan Pasta", category: "Vegan" },
-      { title: "Keto Salad", category: "Keto" }
+      { title: "Keto Salad", category: "Keto" },
+      { title: "Protein Smoothie", category: "High-Protein" },
+      { title: "Avocado Toast", category: "Vegetarian" },
     ]);
   };
 
   return (
-    <div>
-      <h2 className="text-xl font-bold mb-4">Recipe Search</h2>
-      <input
-        type="text"
-        placeholder="Search by title, ingredient, or category"
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        className="border p-2 mr-2"
-      />
-      <button onClick={handleSearch} className="bg-blue-500 text-white px-4 py-2">
-        Search
-      </button>
+    <div className="recipe-container">
+      <HomeButton />
+      <header className="recipe-header">
+        <h1 className="recipe-title">Recipe Search</h1>
+      </header>
 
-      <ul className="mt-4">
-        {results.map((recipe, index) => (
-          <li key={index} className="border-b py-2">
-            {recipe.title} - <span className="text-gray-500">{recipe.category}</span>
-          </li>
-        ))}
-      </ul>
+      <div className="search-section">
+        <input
+          type="text"
+          placeholder="Search by title, ingredient, or category"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          className="search-input"
+        />
+        <button onClick={handleSearch} className="search-btn">
+          Search
+        </button>
+      </div>
+
+      <div className="results-grid">
+        {results.length > 0 ? (
+          results.map((recipe, index) => (
+            <div key={index} className="recipe-card">
+              <h3>{recipe.title}</h3>
+              <p className="category">{recipe.category}</p>
+            </div>
+          ))
+        ) : (
+          <p className="no-results">No recipes found. Try searching!</p>
+        )}
+      </div>
     </div>
   );
 }

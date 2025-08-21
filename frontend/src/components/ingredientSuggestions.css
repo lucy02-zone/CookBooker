@@ -1,0 +1,84 @@
+.ingredient-container {
+  font-family: Arial, sans-serif;
+  background-color: #fdfbe8;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.ingredient-header {
+  background: rgb(111, 113, 75);
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  color: #fdfbe8;
+  margin-bottom: 30px;
+}
+
+.ingredient-title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.ingredient-subtitle {
+  font-size: 16px;
+  margin-top: 5px;
+  color: #e0e0e0;
+}
+
+.ingredient-input {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.ingredient-input input {
+  width: 60%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+
+.ingredient-input button {
+  background: rgb(111, 113, 75);
+  color: #fdfbe8;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.ingredient-input button:hover {
+  background: rgb(254, 254, 234);
+  color: rgb(60, 60, 40);
+}
+
+.ingredient-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.suggestion-card {
+  background: rgb(111, 113, 75);
+  border-radius: 10px;
+  color: #fdfbe8;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s;
+}
+
+.suggestion-card:hover {
+  background-color: rgb(254, 254, 234);
+  color: rgb(60, 60, 40);
+  transform: scale(1.05);
+}
+
+.placeholder {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+}
