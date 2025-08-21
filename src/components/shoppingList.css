@@ -1,0 +1,79 @@
+.shopping-container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fdfbe8;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.shopping-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.shopping-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(111,113,75);
+}
+
+.shopping-subtitle {
+  font-size: 14px;
+  color: #555;
+}
+
+.shopping-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.shopping-input input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+}
+
+.shopping-input button {
+  background: rgb(111,113,75);
+  color: #fdfbe8;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.shopping-input button:hover {
+  background: rgb(254,254,234);
+  color: rgb(60,60,40);
+}
+
+.shopping-list {
+  list-style: none;
+  padding: 0;
+}
+
+.shopping-item {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  cursor: pointer;
+}
+
+.shopping-item span {
+  flex: 1;
+}
+
+.shopping-item.bought span {
+  text-decoration: line-through;
+  color: gray;
+}
