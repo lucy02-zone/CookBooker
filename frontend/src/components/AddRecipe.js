@@ -42,7 +42,7 @@ export default function AddRecipe() {
       await axios.post("http://localhost:4000/api/recipes", newRecipe, {
         headers: { "Content-Type": "application/json" },
       });
-      fetchRecipes(); // refresh list
+      fetchRecipes(); 
       setTitle("");
       setCategory("");
       setIngredients("");
