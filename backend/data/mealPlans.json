@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Weight Loss Meal Plan",
+    "description": "A balanced meal plan focused on calorie deficit for weight loss.",
+    "requirements": "Weight Loss",
+    "meals": [
+      {
+        "day": "Monday",
+        "breakfast": "Oatmeal with berries",
+        "lunch": "Grilled chicken salad",
+        "dinner": "Baked salmon with vegetables",
+        "snacks": ["Apple", "Greek yogurt"]
+      },
+      {
+        "day": "Tuesday",
+        "breakfast": "Smoothie with spinach and banana",
+        "lunch": "Turkey wrap",
+        "dinner": "Stir-fried tofu with broccoli",
+        "snacks": ["Carrot sticks", "Almonds"]
+      },
+      {
+        "day": "Wednesday",
+        "breakfast": "Egg white omelette",
+        "lunch": "Quinoa bowl with veggies",
+        "dinner": "Grilled chicken with sweet potato",
+        "snacks": ["Orange", "Cottage cheese"]
+      },
+      {
+        "day": "Thursday",
+        "breakfast": "Whole grain toast with avocado",
+        "lunch": "Lentil soup",
+        "dinner": "Baked cod with asparagus",
+        "snacks": ["Banana", "Protein bar"]
+      },
+      {
+        "day": "Friday",
+        "breakfast": "Greek yogurt parfait",
+        "lunch": "Veggie stir-fry",
+        "dinner": "Lean beef stir-fry",
+        "snacks": ["Pear", "Handful of nuts"]
+      },
+      {
+        "day": "Saturday",
+        "breakfast": "Chia seed pudding",
+        "lunch": "Salmon salad",
+        "dinner": "Vegetable curry",
+        "snacks": ["Grapes", "Cheese stick"]
+      },
+      {
+        "day": "Sunday",
+        "breakfast": "Avocado toast",
+        "lunch": "Chicken quinoa bowl",
+        "dinner": "Grilled veggies with tofu",
+        "snacks": ["Apple slices", "Yogurt"]
+      }
+    ]
+  },
+  {
+    "name": "Muscle Gain Meal Plan",
+    "description": "High-protein meal plan designed for muscle building.",
+    "requirements": "Muscle Gain",
+    "meals": [
+      {
+        "day": "Monday",
+        "breakfast": "Protein pancakes",
+        "lunch": "Chicken breast with rice",
+        "dinner": "Steak with potatoes",
+        "snacks": ["Protein shake", "Eggs"]
+      },
+      {
+        "day": "Tuesday",
+        "breakfast": "Eggs and bacon",
+        "lunch": "Tuna salad",
+        "dinner": "Salmon with quinoa",
+        "snacks": ["Greek yogurt", "Peanut butter"]
+      },
+      {
+        "day": "Wednesday",
+        "breakfast": "Oatmeal with protein powder",
+        "lunch": "Beef stir-fry",
+        "dinner": "Chicken thighs with sweet potato",
+        "snacks": ["Cottage cheese", "Almonds"]
+      },
+      {
+        "day": "Thursday",
+        "breakfast": "Smoothie with whey",
+        "lunch": "Turkey burger",
+        "dinner": "Pork chops with veggies",
+        "snacks": ["Protein bar", "Milk"]
+      },
+      {
+        "day": "Friday",
+        "breakfast": "Scrambled eggs",
+        "lunch": "Salmon wrap",
+        "dinner": "Lean beef with brown rice",
+        "snacks": ["Cheese", "Nuts"]
+      },
+      {
+        "day": "Saturday",
+        "breakfast": "Pancakes with syrup",
+        "lunch": "Chicken salad",
+        "dinner": "Fish tacos",
+        "snacks": ["Yogurt", "Fruit"]
+      },
+      {
+        "day": "Sunday",
+        "breakfast": "Bacon and eggs",
+        "lunch": "Steak salad",
+        "dinner": "Roast chicken",
+        "snacks": ["Protein shake", "Cookies"]
+      }
+    ]
+  },
+  {
+    "name": "Balanced Meal Plan",
+    "description": "A well-rounded meal plan for overall health and maintenance.",
+    "requirements": "Balanced",
+    "meals": [
+      {
+        "day": "Monday",
+        "breakfast": "Cereal with milk",
+        "lunch": "Sandwich with veggies",
+        "dinner": "Pasta with meat sauce",
+        "snacks": ["Fruit", "Yogurt"]
+      },
+      {
+        "day": "Tuesday",
+        "breakfast": "Toast with jam",
+        "lunch": "Soup and salad",
+        "dinner": "Grilled fish with rice",
+        "snacks": ["Nuts", "Cheese"]
+      },
+      {
+        "day": "Wednesday",
+        "breakfast": "Smoothie",
+        "lunch": "Wrap with chicken",
+        "dinner": "Stir-fry veggies",
+        "snacks": ["Apple", "Granola bar"]
+      },
+      {
+        "day": "Thursday",
+        "breakfast": "Oatmeal",
+        "lunch": "Pizza slice",
+        "dinner": "Chicken curry",
+        "snacks": ["Banana", "Ice cream"]
+      },
+      {
+        "day": "Friday",
+        "breakfast": "Eggs",
+        "lunch": "Burger",
+        "dinner": "Salad with dressing",
+        "snacks": ["Chips", "Soda"]
+      },
+      {
+        "day": "Saturday",
+        "breakfast": "Pancakes",
+        "lunch": "Tacos",
+        "dinner": "Steak",
+        "snacks": ["Cake", "Beer"]
+      },
+      {
+        "day": "Sunday",
+        "breakfast": "Waffles",
+        "lunch": "Pasta",
+        "dinner": "Roast",
+        "snacks": ["Pie", "Wine"]
+      }
+    ]
+  }
+]

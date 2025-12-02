@@ -1,0 +1,642 @@
+[
+  {
+    "name": "Oatmeal with Berries",
+    "type": "breakfast",
+    "requirements": "Weight Loss",
+    "ingredients": ["1 cup oats", "1 cup berries", "1 cup milk", "1 tbsp honey"],
+    "instructions": "Cook oats with milk, top with berries and honey.",
+    "prepTime": "10 minutes",
+    "cookTime": "5 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Smoothie with Spinach and Banana",
+    "type": "breakfast",
+    "requirements": "Weight Loss",
+    "ingredients": ["1 banana", "1 cup spinach", "1 cup yogurt", "1 tbsp chia seeds"],
+    "instructions": "Blend all ingredients until smooth.",
+    "prepTime": "5 minutes",
+    "cookTime": "0 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Egg White Omelette",
+    "type": "breakfast",
+    "requirements": "Weight Loss",
+    "ingredients": ["4 egg whites", "1 tomato", "1/2 onion", "Spinach"],
+    "instructions": "Whisk egg whites, add veggies, cook in pan.",
+    "prepTime": "10 minutes",
+    "cookTime": "5 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Whole Grain Toast with Avocado",
+    "type": "breakfast",
+    "requirements": "Weight Loss",
+    "ingredients": ["2 slices whole grain bread", "1 avocado", "Salt", "Pepper"],
+    "instructions": "Toast bread, mash avocado on top, season.",
+    "prepTime": "5 minutes",
+    "cookTime": "2 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Greek Yogurt Parfait",
+    "type": "breakfast",
+    "requirements": "Weight Loss",
+    "ingredients": ["1 cup Greek yogurt", "1/2 cup granola", "1/2 cup berries"],
+    "instructions": "Layer yogurt, granola, and berries.",
+    "prepTime": "5 minutes",
+    "cookTime": "0 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Chia Seed Pudding",
+    "type": "breakfast",
+    "requirements": "Weight Loss",
+    "ingredients": ["1/4 cup chia seeds", "1 cup almond milk", "1 tbsp maple syrup"],
+    "instructions": "Mix and refrigerate overnight.",
+    "prepTime": "5 minutes",
+    "cookTime": "0 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Avocado Toast",
+    "type": "breakfast",
+    "requirements": "Weight Loss",
+    "ingredients": ["2 slices bread", "1 avocado", "Lemon juice", "Salt"],
+    "instructions": "Toast bread, top with mashed avocado.",
+    "prepTime": "5 minutes",
+    "cookTime": "2 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Grilled Chicken Salad",
+    "type": "lunch",
+    "requirements": "Weight Loss",
+    "ingredients": ["4 oz chicken breast", "Mixed greens", "1 tomato", "1 cucumber", "Olive oil"],
+    "instructions": "Grill chicken, toss with veggies and dressing.",
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Turkey Wrap",
+    "type": "lunch",
+    "requirements": "Weight Loss",
+    "ingredients": ["4 oz turkey", "Whole wheat tortilla", "Lettuce", "Tomato", "Mustard"],
+    "instructions": "Wrap turkey and veggies in tortilla.",
+    "prepTime": "5 minutes",
+    "cookTime": "0 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Quinoa Bowl with Veggies",
+    "type": "lunch",
+    "requirements": "Weight Loss",
+    "ingredients": ["1 cup quinoa", "Broccoli", "Carrots", "Soy sauce"],
+    "instructions": "Cook quinoa, steam veggies, mix.",
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Lentil Soup",
+    "type": "lunch",
+    "requirements": "Weight Loss",
+    "ingredients": ["1 cup lentils", "Carrots", "Celery", "Vegetable broth"],
+    "instructions": "Cook lentils with veggies in broth.",
+    "prepTime": "10 minutes",
+    "cookTime": "30 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Veggie Stir-Fry",
+    "type": "lunch",
+    "requirements": "Weight Loss",
+    "ingredients": ["Broccoli", "Bell peppers", "Soy sauce", "Garlic"],
+    "instructions": "Stir-fry veggies with sauce.",
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Salmon Salad",
+    "type": "lunch",
+    "requirements": "Weight Loss",
+    "ingredients": ["4 oz salmon", "Mixed greens", "Lemon", "Olive oil"],
+    "instructions": "Grill salmon, serve over greens.",
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Chicken Quinoa Bowl",
+    "type": "lunch",
+    "requirements": "Weight Loss",
+    "ingredients": ["4 oz chicken", "1 cup quinoa", "Spinach", "Feta"],
+    "instructions": "Cook chicken and quinoa, mix with spinach.",
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Baked Salmon with Vegetables",
+    "type": "dinner",
+    "requirements": "Weight Loss",
+    "ingredients": ["6 oz salmon", "Broccoli", "Carrots", "Lemon"],
+    "instructions": "Bake salmon with veggies at 400F for 20 minutes.",
+    "prepTime": "10 minutes",
+    "cookTime": "20 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Stir-Fried Tofu with Broccoli",
+    "type": "dinner",
+    "requirements": "Weight Loss",
+    "ingredients": ["8 oz tofu", "Broccoli", "Soy sauce", "Garlic"],
+    "instructions": "Stir-fry tofu and broccoli.",
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Grilled Chicken with Sweet Potato",
+    "type": "dinner",
+    "requirements": "Weight Loss",
+    "ingredients": ["6 oz chicken", "1 sweet potato", "Green beans"],
+    "instructions": "Grill chicken, bake potato, steam beans.",
+    "prepTime": "10 minutes",
+    "cookTime": "25 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Baked Cod with Asparagus",
+    "type": "dinner",
+    "requirements": "Weight Loss",
+    "ingredients": ["6 oz cod", "Asparagus", "Lemon", "Olive oil"],
+    "instructions": "Bake cod and asparagus.",
+    "prepTime": "10 minutes",
+    "cookTime": "20 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Lean Beef Stir-Fry",
+    "type": "dinner",
+    "requirements": "Weight Loss",
+    "ingredients": ["6 oz beef", "Bell peppers", "Broccoli", "Soy sauce"],
+    "instructions": "Stir-fry beef and veggies.",
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Vegetable Curry",
+    "type": "dinner",
+    "requirements": "Weight Loss",
+    "ingredients": ["Mixed veggies", "Coconut milk", "Curry powder", "Rice"],
+    "instructions": "Cook curry with veggies, serve over rice.",
+    "prepTime": "15 minutes",
+    "cookTime": "20 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Grilled Veggies with Tofu",
+    "type": "dinner",
+    "requirements": "Weight Loss",
+    "ingredients": ["Tofu", "Zucchini", "Eggplant", "Olive oil"],
+    "instructions": "Grill tofu and veggies.",
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Roast Chicken",
+    "type": "dinner",
+    "requirements": "Weight Loss",
+    "ingredients": ["6 oz chicken", "Herbs", "Garlic", "Potatoes"],
+    "instructions": "Roast chicken with potatoes.",
+    "prepTime": "10 minutes",
+    "cookTime": "30 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Protein Pancakes",
+    "type": "breakfast",
+    "requirements": "Muscle Gain",
+    "ingredients": ["1 cup oats", "4 egg whites", "Banana", "Protein powder"],
+    "instructions": "Blend and cook as pancakes.",
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Eggs and Bacon",
+    "type": "breakfast",
+    "requirements": "Muscle Gain",
+    "ingredients": ["2 eggs", "2 slices bacon", "Toast"],
+    "instructions": "Cook eggs and bacon, serve with toast.",
+    "prepTime": "5 minutes",
+    "cookTime": "10 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Oatmeal with Protein Powder",
+    "type": "breakfast",
+    "requirements": "Muscle Gain",
+    "ingredients": ["1 cup oats", "Protein powder", "Peanut butter", "Banana"],
+    "instructions": "Cook oats, mix in protein.",
+    "prepTime": "5 minutes",
+    "cookTime": "5 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Smoothie with Whey",
+    "type": "breakfast",
+    "requirements": "Muscle Gain",
+    "ingredients": ["Whey protein", "Banana", "Almond milk", "Spinach"],
+    "instructions": "Blend all ingredients.",
+    "prepTime": "5 minutes",
+    "cookTime": "0 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Scrambled Eggs",
+    "type": "breakfast",
+    "requirements": "Muscle Gain",
+    "ingredients": ["3 eggs", "Cheese", "Ham"],
+    "instructions": "Scramble eggs with cheese and ham.",
+    "prepTime": "5 minutes",
+    "cookTime": "5 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Bacon and Eggs",
+    "type": "breakfast",
+    "requirements": "Muscle Gain",
+    "ingredients": ["2 eggs", "4 slices bacon", "Hash browns"],
+    "instructions": "Cook eggs and bacon.",
+    "prepTime": "5 minutes",
+    "cookTime": "10 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Pancakes with Syrup",
+    "type": "breakfast",
+    "requirements": "Muscle Gain",
+    "ingredients": ["Flour", "Eggs", "Milk", "Syrup"],
+    "instructions": "Make and cook pancakes.",
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Chicken Breast with Rice",
+    "type": "lunch",
+    "requirements": "Muscle Gain",
+    "ingredients": ["8 oz chicken", "1 cup rice", "Broccoli"],
+    "instructions": "Grill chicken, cook rice, steam broccoli.",
+    "prepTime": "10 minutes",
+    "cookTime": "20 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Tuna Salad",
+    "type": "lunch",
+    "requirements": "Muscle Gain",
+    "ingredients": ["1 can tuna", "Mayo", "Celery", "Bread"],
+    "instructions": "Mix tuna with mayo, serve on bread.",
+    "prepTime": "5 minutes",
+    "cookTime": "0 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Beef Stir-Fry",
+    "type": "lunch",
+    "requirements": "Muscle Gain",
+    "ingredients": ["8 oz beef", "Rice", "Veggies", "Soy sauce"],
+    "instructions": "Stir-fry beef and veggies, serve over rice.",
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Turkey Burger",
+    "type": "lunch",
+    "requirements": "Muscle Gain",
+    "ingredients": ["8 oz turkey", "Bun", "Lettuce", "Tomato"],
+    "instructions": "Grill burger, serve on bun.",
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Salmon Wrap",
+    "type": "lunch",
+    "requirements": "Muscle Gain",
+    "ingredients": ["6 oz salmon", "Tortilla", "Veggies", "Cream cheese"],
+    "instructions": "Grill salmon, wrap in tortilla.",
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Chicken Salad",
+    "type": "lunch",
+    "requirements": "Muscle Gain",
+    "ingredients": ["8 oz chicken", "Greens", "Nuts", "Dressing"],
+    "instructions": "Grill chicken, toss with salad.",
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Steak Salad",
+    "type": "lunch",
+    "requirements": "Muscle Gain",
+    "ingredients": ["8 oz steak", "Greens", "Tomato", "Dressing"],
+    "instructions": "Grill steak, serve over salad.",
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Steak with Potatoes",
+    "type": "dinner",
+    "requirements": "Muscle Gain",
+    "ingredients": ["10 oz steak", "Potatoes", "Butter", "Garlic"],
+    "instructions": "Grill steak, bake potatoes.",
+    "prepTime": "10 minutes",
+    "cookTime": "25 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Salmon with Quinoa",
+    "type": "dinner",
+    "requirements": "Muscle Gain",
+    "ingredients": ["8 oz salmon", "1 cup quinoa", "Asparagus"],
+    "instructions": "Bake salmon, cook quinoa.",
+    "prepTime": "10 minutes",
+    "cookTime": "20 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Chicken Thighs with Sweet Potato",
+    "type": "dinner",
+    "requirements": "Muscle Gain",
+    "ingredients": ["8 oz chicken thighs", "Sweet potato", "Green beans"],
+    "instructions": "Bake chicken and potato.",
+    "prepTime": "10 minutes",
+    "cookTime": "30 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Pork Chops with Veggies",
+    "type": "dinner",
+    "requirements": "Muscle Gain",
+    "ingredients": ["8 oz pork chops", "Carrots", "Broccoli"],
+    "instructions": "Grill pork, steam veggies.",
+    "prepTime": "10 minutes",
+    "cookTime": "20 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Lean Beef with Brown Rice",
+    "type": "dinner",
+    "requirements": "Muscle Gain",
+    "ingredients": ["10 oz beef", "1 cup brown rice", "Spinach"],
+    "instructions": "Cook beef and rice.",
+    "prepTime": "10 minutes",
+    "cookTime": "25 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Fish Tacos",
+    "type": "dinner",
+    "requirements": "Muscle Gain",
+    "ingredients": ["8 oz fish", "Tortillas", "Cabbage", "Salsa"],
+    "instructions": "Grill fish, assemble tacos.",
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Roast Chicken",
+    "type": "dinner",
+    "requirements": "Muscle Gain",
+    "ingredients": ["10 oz chicken", "Potatoes", "Carrots"],
+    "instructions": "Roast chicken with veggies.",
+    "prepTime": "10 minutes",
+    "cookTime": "40 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Cereal with Milk",
+    "type": "breakfast",
+    "requirements": "Balanced",
+    "ingredients": ["Cereal", "Milk", "Banana"],
+    "instructions": "Pour milk over cereal, add banana.",
+    "prepTime": "2 minutes",
+    "cookTime": "0 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Toast with Jam",
+    "type": "breakfast",
+    "requirements": "Balanced",
+    "ingredients": ["Bread", "Jam", "Butter"],
+    "instructions": "Toast bread, spread jam.",
+    "prepTime": "2 minutes",
+    "cookTime": "2 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Smoothie",
+    "type": "breakfast",
+    "requirements": "Balanced",
+    "ingredients": ["Fruit", "Yogurt", "Juice"],
+    "instructions": "Blend ingredients.",
+    "prepTime": "5 minutes",
+    "cookTime": "0 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Oatmeal",
+    "type": "breakfast",
+    "requirements": "Balanced",
+    "ingredients": ["Oats", "Milk", "Honey"],
+    "instructions": "Cook oats with milk.",
+    "prepTime": "5 minutes",
+    "cookTime": "5 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Eggs",
+    "type": "breakfast",
+    "requirements": "Balanced",
+    "ingredients": ["2 eggs", "Toast"],
+    "instructions": "Cook eggs, serve with toast.",
+    "prepTime": "5 minutes",
+    "cookTime": "5 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Pancakes",
+    "type": "breakfast",
+    "requirements": "Balanced",
+    "ingredients": ["Flour", "Eggs", "Milk", "Syrup"],
+    "instructions": "Make and cook pancakes.",
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Waffles",
+    "type": "breakfast",
+    "requirements": "Balanced",
+    "ingredients": ["Waffle mix", "Syrup"],
+    "instructions": "Cook waffles, add syrup.",
+    "prepTime": "5 minutes",
+    "cookTime": "5 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Sandwich with Veggies",
+    "type": "lunch",
+    "requirements": "Balanced",
+    "ingredients": ["Bread", "Turkey", "Lettuce", "Tomato"],
+    "instructions": "Make sandwich with fillings.",
+    "prepTime": "5 minutes",
+    "cookTime": "0 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Soup and Salad",
+    "type": "lunch",
+    "requirements": "Balanced",
+    "ingredients": ["Soup", "Greens", "Dressing"],
+    "instructions": "Serve soup with salad.",
+    "prepTime": "5 minutes",
+    "cookTime": "0 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Wrap with Chicken",
+    "type": "lunch",
+    "requirements": "Balanced",
+    "ingredients": ["Tortilla", "Chicken", "Veggies"],
+    "instructions": "Wrap chicken and veggies.",
+    "prepTime": "5 minutes",
+    "cookTime": "0 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Pizza Slice",
+    "type": "lunch",
+    "requirements": "Balanced",
+    "ingredients": ["Pizza dough", "Cheese", "Sauce"],
+    "instructions": "Bake pizza slice.",
+    "prepTime": "5 minutes",
+    "cookTime": "10 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Burger",
+    "type": "lunch",
+    "requirements": "Balanced",
+    "ingredients": ["Beef patty", "Bun", "Lettuce"],
+    "instructions": "Grill patty, assemble burger.",
+    "prepTime": "5 minutes",
+    "cookTime": "10 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Tacos",
+    "type": "lunch",
+    "requirements": "Balanced",
+    "ingredients": ["Tortillas", "Beef", "Salsa"],
+    "instructions": "Fill tortillas with beef.",
+    "prepTime": "5 minutes",
+    "cookTime": "10 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Pasta",
+    "type": "lunch",
+    "requirements": "Balanced",
+    "ingredients": ["Pasta", "Sauce", "Cheese"],
+    "instructions": "Cook pasta, add sauce.",
+    "prepTime": "5 minutes",
+    "cookTime": "10 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Pasta with Meat Sauce",
+    "type": "dinner",
+    "requirements": "Balanced",
+    "ingredients": ["Pasta", "Ground beef", "Tomato sauce"],
+    "instructions": "Cook pasta, make sauce with beef.",
+    "prepTime": "10 minutes",
+    "cookTime": "20 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Grilled Fish with Rice",
+    "type": "dinner",
+    "requirements": "Balanced",
+    "ingredients": ["Fish", "Rice", "Veggies"],
+    "instructions": "Grill fish, cook rice.",
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Stir-Fry Veggies",
+    "type": "dinner",
+    "requirements": "Balanced",
+    "ingredients": ["Veggies", "Soy sauce", "Rice"],
+    "instructions": "Stir-fry veggies, serve over rice.",
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Chicken Curry",
+    "type": "dinner",
+    "requirements": "Balanced",
+    "ingredients": ["Chicken", "Curry powder", "Coconut milk", "Rice"],
+    "instructions": "Cook curry, serve over rice.",
+    "prepTime": "10 minutes",
+    "cookTime": "20 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Salad with Dressing",
+    "type": "dinner",
+    "requirements": "Balanced",
+    "ingredients": ["Greens", "Chicken", "Dressing"],
+    "instructions": "Toss salad with chicken.",
+    "prepTime": "5 minutes",
+    "cookTime": "0 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Steak",
+    "type": "dinner",
+    "requirements": "Balanced",
+    "ingredients": ["Steak", "Potatoes"],
+    "instructions": "Grill steak, bake potatoes.",
+    "prepTime": "5 minutes",
+    "cookTime": "15 minutes",
+    "servings": 1
+  },
+  {
+    "name": "Roast",
+    "type": "dinner",
+    "requirements": "Balanced",
+    "ingredients": ["Meat", "Veggies"],
+    "instructions": "Roast meat with veggies.",
+    "prepTime": "10 minutes",
+    "cookTime": "30 minutes",
+    "servings": 1
+  }
+]

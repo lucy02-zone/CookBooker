@@ -1,0 +1,17 @@
+.home-btn {
+  background: rgb(111, 113, 75);
+  color: #fdfbe8;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  transition: 0.2s;
+}
+
+.home-btn:hover {
+  background: rgb(254, 254, 234);
+  color: rgb(60, 60, 40);
+}
